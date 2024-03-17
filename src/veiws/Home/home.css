@@ -1,0 +1,20 @@
+.app-tittle{
+    text-align: center;
+}
+.input-conatiner{
+    display: flex;
+    justify-content: center;
+}
+
+.task-input{
+    margin-right: 20px;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+.add-icon{
+    height: 30px;
+    cursor: pointer;
+
+}
