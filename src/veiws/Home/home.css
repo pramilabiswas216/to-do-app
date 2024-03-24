@@ -1,9 +1,12 @@
 .app-tittle{
     text-align: center;
 }
-.input-conatiner{
+
+.input-container{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .task-input{
@@ -12,9 +15,31 @@
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 15px;
+    text-align: center;
 }
 .add-icon{
-    height: 30px;
+    height: 40px;
     cursor: pointer;
 
 }
+.error-message{
+    text-align: center;
+    color: red;
+    margin: 1px 0;
+    padding: 0;
+}
+.tasks-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    overflow-y: scroll;
+    
+}
+.category-select{
+    margin-right:20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+
+}
+
